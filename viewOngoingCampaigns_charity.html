@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/profile_transactions.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css">
+
+
+  <title>Give For Good</title>
+</head>
+
+<body>
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <a class="navbar-brand" href="./index.html"><img src="assets/img/giveForGoodLogo.png" height="40" width="40" alt="logo" />
+      Give For Good
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./campaign_details.html">Campaigns</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./viewTransactions_charity.html">Transactions</a>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link' href='./contact.html'>About Us</a>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link' href='./contact.html'>Contact Us</a>
+        </li>
+
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./charityProfile_charity.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick='logoutClick()' href="./index.html"><span class="fas fa-sign-out-alt"></span>&nbsp;Log Out</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container">
+      <div class="card p-4 mt-2">
+        <div class="container">
+          <h4>Ongoing Campaigns</h4>
+          <a href="./add_campaign" type="button" class="btn btn-info">Add</a>
+          <table class="table table-responsive-xl" id="campaigns_all">
+            <thead>
+              <tr>
+                <th scope="col">Ongoing Campaigns</th>
+                <th scope="col">Money Donated</th>
+                <th scope="col">Percentage Completion</th>
+                <th scope="col">Goal Amount</th>
+                <th scope="col">No. of Backers</th>
+                <th scope="col">End Date</th>
+                <th scope="col">Status</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <td>Children Care</td>
+                <td>$200,000</td>
+                <td>50%</td>
+                <td>$400,000</td>
+                <td>100</td>
+                <td>23 March 2023</td>
+                <td>In progress</td>
+              </tr>
+              <tr>
+                <td>Elderly Care</td>
+                <td>$300,000</td>
+                <td>10%</td>
+                <td>3300</td>
+                <td>300</td>
+                <td>23 March 2023</td>
+                <td>In progress</td>
+              </tr>
+              <tr>
+                <td>Family in need</td>
+                <td>$200,000</td>
+                <td>50%</td>
+                <td>400,000</td>
+                <td>100</td>
+                <td>23 March 2023</td>
+                <td>In progress</td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">Copyright © 2021 Give For Good, All Rights Reserved.</span>
+    </div>
+  </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="./js/viewOngoingCampaigns_charity.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#campaigns_all').DataTable();
+    //Add link to campaign page for each row in table
+  });
+</script>
+
+</html>

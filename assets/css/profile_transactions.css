@@ -1,0 +1,33 @@
+section{
+    display:inline-flex;
+}
+h1, h2,h3,h4, h5, h6{
+    color: #19A0C5;
+}
+table.dataTable thead{
+  background-color:#19A0C5;
+}
+table.dataTable thead th{
+  color: white;
+}
+table.dataTable tbody tr:hover {
+    background-color:aliceblue;
+  }
+
+
+.navbar-brand {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    color: #19A0C5 !important;
+}
+
+nav {
+    background-color: #efefef;
+}
+
+.table{
+    width: 100%;
+}

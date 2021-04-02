@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="https://kit.fontawesome.com/d722db5043.js" crossorigin="anonymous"></script>
+  <title>Give For Good</title>
+</head>
+
+<body>
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <a class="navbar-brand" href="#"><img src="assets/img/giveForGoodLogo.png" height="40" width="40" alt="logo" />
+      Give For Good
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index">Home </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./ongoing_campaigns">Campaigns</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./viewTransactions_donor">Transactions</a>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link' href='#'>About Us</a>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link' href='./contact'>Contact Us</a>
+        </li>
+
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./donorProfile_edit">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick='logoutClick()'><span class="fas fa-sign-out-alt"></span>&nbsp;Log Out</a>
+        </li>
+
+      </ul> -->
+    </div>
+  </nav>
+  <section id="ongoing">
+    <div class="container">
+      <div class="d-flex justify-content-between row pl-4 pr-4">
+        <div class="section-header">
+          <h3>Ongoing Campaigns</h3>
+        </div>
+        <form class="form-inline">
+          <div class="input-group mb-2">
+            <input type="text" class="form-control" id="inlineFormInputGroup" onkeyup="search()" placeholder="Search">
+
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="fas fa-search"></i>
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+      <div class="card-deck pr-1 pl-1" id="ongoingCard">
+
+      </div>
+      <!-- <div class="card-deck pr-1 pl-1">
+        <div class="card">
+          <img src="assets/img/joel-muniz-y3ZY6qFln_g-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Build New Shelters<br><span class="small">Society for the Prevention of Cruelty to Animals (SPCA)</span>
+            </h5>
+            <p class="card-text">Every year, SPCA Singapore needs at least $3 million to run all its services —
+              24/7 emergency rescues...</p>
+            <a href="" class="btn btn-info">Donate Today</a> <br>
+            <a class="card-text"><small>More Details</small></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/joel-muniz-y3ZY6qFln_g-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Non Perishable Provisions<br><span class="small">Willing Hearts</span></h5>
+            <p class="card-text">We operates a soup kitchen that prepares, cooks and distributes about 9,500
+              daily meals to over ...</p>
+            <a href="" class="btn btn-info">Donate Today</a> <br>
+            <a class="card-text"><small>More Details</small></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/joel-muniz-y3ZY6qFln_g-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Willing Hearts<br><span class="small">Society for the Prevention of Cruelty to Animals (SPCA)</span>
+            </h5>
+            <p class="card-text">We operates a soup kitchen that prepares, cooks and distributes about 9,500
+              daily meals to over ...</p>
+            <a href="" class="btn btn-info">Donate Today</a> <br>
+            <a class="card-text"><small>More Details</small></a>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">Copyright © 2021 Give For Good, All Rights Reserved.</span>
+    </div>
+  </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="./js/ongoing.js"></script>
+
+</html>

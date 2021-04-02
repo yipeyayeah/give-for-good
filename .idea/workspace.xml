@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82345c9b-43a2-4e32-8f81-249e5a009a54" name="Default Changelist" comment="Landing Page Completed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/campaign.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/campaign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/charity.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/charity.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/profile_transactions.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/profile_transactions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/campaign_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/campaign_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charityProfile_charity.html" beforeDir="false" afterPath="$PROJECT_DIR$/charityProfile_charity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charityProfile_donor.html" beforeDir="false" afterPath="$PROJECT_DIR$/charityProfile_donor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charityProfile_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/charityProfile_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/donorProfile_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/donorProfile_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ongoing_campaigns.html" beforeDir="false" afterPath="$PROJECT_DIR$/ongoing_campaigns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viewOngoingCampaigns_charity.html" beforeDir="false" afterPath="$PROJECT_DIR$/viewOngoingCampaigns_charity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viewTransactions_charity.html" beforeDir="false" afterPath="$PROJECT_DIR$/viewTransactions_charity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viewTransactions_donor.html" beforeDir="false" afterPath="$PROJECT_DIR$/viewTransactions_donor.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1osI3ExBnvtrmqvmzUA5SCOpcSJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\daren\PhpstormProjects\databaseProject\assets\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\daren\PhpstormProjects\databaseProject" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82345c9b-43a2-4e32-8f81-249e5a009a54" name="Default Changelist" comment="" />
+      <created>1614068671182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614068671182</updated>
+      <workItem from="1614068672817" duration="6942000" />
+      <workItem from="1614190126683" duration="3612000" />
+      <workItem from="1614919706865" duration="5756000" />
+      <workItem from="1614953841115" duration="2996000" />
+      <workItem from="1615002842917" duration="12772000" />
+      <workItem from="1615019891181" duration="67000" />
+      <workItem from="1615089190788" duration="7278000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit + Carousel Completion">
+      <created>1614192824020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614192824020</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Landing Page Completed">
+      <created>1614956056108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614956056108</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Login, contact, forget password, register">
+      <created>1615015568206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615015568206</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Charity profile">
+      <created>1615019854931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615019854931</updated>
+    </task>
+    <task id="LOCAL-00005" summary="charity profile view for donor">
+      <created>1615019940920</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615019940920</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit + Carousel Completion" />
+    <MESSAGE value="Landing Page Completed" />
+    <MESSAGE value="Login, contact, forget password, register" />
+    <MESSAGE value="Charity profile" />
+    <MESSAGE value="charity profile view for donor" />
+    <option name="LAST_COMMIT_MESSAGE" value="charity profile view for donor" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="97" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614193785591">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="97" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1614193785591" />
+    <state x="234" y="114" key="Vcs.Push.Dialog.v2" timestamp="1615019949894">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="234" y="114" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1615019949894" />
+    <state x="460" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615089194370">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="460" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.760@0.0.1280.760" timestamp="1615089194370" />
+    <state x="298" y="171" key="run.anything.popup" timestamp="1614953417370">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="298" y="171" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1614953417370" />
+  </component>
+</project>
