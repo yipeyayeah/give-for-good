@@ -55,9 +55,9 @@ function logoutClick() {
     }).done(function(result) {
 
         if (result == 1) {
-            window.location.href = "index.html"
+            window.location.href = "../index.html"
         } else {
-            window.location.href = "index.html"
+            window.location.href = "../index.html"
         }
 
     });

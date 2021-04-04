@@ -7,9 +7,9 @@ function logoutClick() {
     }).done(function(result) {
 
         if (result == 1) {
-            window.location.href = "index.html"
+            window.location.href = "../index.html"
         } else {
-            window.location.href = "index.html"
+            window.location.href = "../index.html"
         }
 
     });
@@ -44,7 +44,7 @@ function btnSubmitClick() {
             alert("Failed to add")
           } else {
             alert("New Campaign added successfully")
-            window.location.href = "./viewOngoingCampaigns_charity.html";
+            window.location.href = "../viewOngoingCampaigns_charity.html";
           }
       }
   });
