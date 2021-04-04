@@ -38,7 +38,7 @@ function loadDetails() {
 
 				} else {
           alert("Please login as a donor to donate!")
-          window.location.href = "../login.html"
+          window.location.href = "./login.html"
         }
 
     });
@@ -58,7 +58,7 @@ function donate() {
 				if (result != 0) {
           //console.log(result)
           alert("Successfull donated!")
-					window.location.href = "../viewTransactions_donor.html"
+					window.location.href = "./viewTransactions_donor.html"
 				} else {
           alert("Please login as a donor to donate!")
           window.location.href = "../login.html"
