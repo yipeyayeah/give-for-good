@@ -37,7 +37,8 @@ function loadDetails() {
           document.getElementById("campaignName").value = jsonObj[1]['CampaignName'];
 
 				} else {
-          alert("please login as a donor to donate!")
+          alert("Please login as a donor to donate!")
+          window.location.href = "login.html"
         }
 
     });
@@ -59,7 +60,8 @@ function donate() {
           alert("Successfull donated!")
 					window.location.href = "viewTransactions_donor.html"
 				} else {
-          alert("please login as a donor to donate!")
+          alert("Please login as a donor to donate!")
+          window.location.href = "login.html"
         }
 
     });
