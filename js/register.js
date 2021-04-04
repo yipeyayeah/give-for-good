@@ -44,7 +44,7 @@ function btnSubmitClick() {
             alert("Password and Confirm Password not the same!")
           } else {
             alert("Your account has been added successfully")
-            window.location.href = "./login";
+            window.location.href = "./login.html";
           }
       }
   });

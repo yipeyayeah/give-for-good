@@ -44,7 +44,7 @@ function btnSubmitClick() {
             alert("Failed to add")
           } else {
             alert("New Campaign added successfully")
-            window.location.href = "./viewOngoingCampaigns_charity";
+            window.location.href = "./viewOngoingCampaigns_charity.html";
           }
       }
   });
