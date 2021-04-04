@@ -26,7 +26,7 @@ function loginClick() {
             },
             success: function(result) {
                 if (result == 1) {
-                    window.location.href = "../index.html"
+                    window.location.href = "./index.html"
                 } else {
                     alert("Incorrect email or password")
                 }
