@@ -24,148 +24,80 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Campaigns</a>
+          <a class="nav-link" href="./campaign_details.html">Campaigns</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="./contact.html">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="./contact.html">Contact Us</a>
         </li>
+
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="./login"><span class="fas fa-sign-in-alt"></span>&nbsp;Login</a>
+          <a class="nav-link" href="#"><span class="fas fa-sign-in-alt"></span>&nbsp;Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./register">Register</a>
+          <a class="nav-link" href="./register.html">Register</a>
         </li>
-      </ul> -->
+      </ul>
     </div>
   </nav>
 
-  <section id="home">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100 min-vh-100" src="assets/img/joel-muniz-A4Ax1ApccfA-unsplash.jpg" alt="Second slide">
-          <div class="carousel-caption">
-            <h2>You can make a difference today!</h2>
-            <p class="subtitle1">There’s a lot more we can do, together.</p>
-            <button class="btn btn-info">Donate Today!</button>
+  <section id="login" style="background-image: url('assets/img/joel-muniz-BErJJL_KsjA-unsplash.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="card col-12 offset-md-4 col-md-4">
+          <div class="card-header">
+            <h4>Log In</h4>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 min-vh-100" src="assets/img/joel-muniz-3k3l2brxmwQ-unsplash.jpg" alt="First slide">
-          <div class="carousel-caption">
-            <h2>Be part of the difference we make</h2>
-            <p class="subtitle1">You can spark hope and change in others!</p>
-            <button class="btn btn-info">Donate Today!</button>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="********">
+              </div>
+              <div class="row">
+                <div class="col-6 col-md-4">
+                  <a href="./forgetPw.html" class="forget"><small>Forget Password?</small></a>
+                </div>
+                <div class="col-6 col-md-4">
+                  <button type="button" class="btn btn-info" onclick="loginClick()">Log In</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <p><small>Don't have an account? <a href="./register.html">Sign Up!</a></small></p>
+                </div>
+              </div>
+
+            </form>
+
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
   </section>
 
-  <section id="about">
-    <div class="container">
-      <div class="section-header">
-        <h3>Give For Good: A one stop platform for all your giving needs!</h3>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <i class="fas fa-donate"></i>
-          <h4>Donate</h4>
-          <h6>With over 500 charities on the platform, you are bound to find something you are interested in.</h6>
-        </div>
-        <div class="col-12 col-md-4">
-          <i class="fas fa-hands-helping"></i>
-          <h4>Volunteer</h4>
-          <h6>Find an activity which interest you, and contribute back to society.</h6>
-        </div>
-        <div class="col-12 col-md-4">
-          <i class="fundraise">
-            <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M48 84C45.5156 80.6953 40.8047 80.0156 37.5 82.5C34.1953 84.9844 33.5156 89.6953 36 93L44.9297 104.906C46.0547 106.406 45.8906 108.492 44.5781 109.805L41.5781 112.805C40.0078 114.375 37.4531 114.258 36.0469 112.547L15 87.2812V52.5C15 48.3516 11.6484 45 7.5 45C3.35156 45 0 48.3516 0 52.5V103.687C0 106.242 0.867187 108.727 2.46094 110.719L26.8594 142.195C28.0312 143.719 28.8281 145.453 29.2969 147.281C29.7187 148.898 31.1953 150 32.8828 150H63.75C65.8125 150 67.5 148.312 67.5 146.25V120C67.5 113.508 65.3906 107.203 61.5 102L48 84V84ZM142.5 45C138.352 45 135 48.3516 135 52.5V87.2812L113.953 112.547C112.547 114.234 109.969 114.352 108.422 112.805L105.422 109.805C104.109 108.492 103.945 106.406 105.07 104.906L114 93C116.484 89.6953 115.805 84.9844 112.5 82.5C109.195 80.0156 104.484 80.6953 102 84L88.5 102C84.6094 107.203 82.5 113.508 82.5 120V146.25C82.5 148.312 84.1875 150 86.25 150H117.117C118.781 150 120.281 148.898 120.703 147.281C121.172 145.453 121.969 143.719 123.141 142.195L147.539 110.719C149.133 108.727 150 106.242 150 103.687V52.5C150 48.3516 146.648 45 142.5 45Z"
-                fill="#0E4554" fill-opacity="0.7" />
-              <path
-                d="M86.5671 41.0273L67.5827 35.4727C65.3854 34.8398 63.8561 32.7832 63.8561 30.498C63.8561 27.6328 66.1765 25.3125 69.0417 25.3125H80.696C82.8405 25.3125 84.9499 25.9629 86.7077 27.1582C87.78 27.8789 89.2214 27.7031 90.1354 26.8066L96.2526 20.8301C97.5007 19.6172 97.3249 17.5957 95.9362 16.5234C91.6296 13.1484 86.2507 11.2676 80.7311 11.25V2.8125C80.7311 1.26562 79.4655 0 77.9186 0H72.2936C70.7468 0 69.4811 1.26562 69.4811 2.8125V11.25H69.0417C57.8444 11.25 48.8444 20.8652 49.8815 32.2734C50.6198 40.377 56.8073 46.9688 64.612 49.2539L82.6296 54.5273C84.8269 55.1777 86.3561 57.2168 86.3561 59.502C86.3561 62.3672 84.0358 64.6875 81.1706 64.6875H69.5163C67.3718 64.6875 65.2624 64.0371 63.5046 62.8418C62.4323 62.1211 60.9909 62.2969 60.0768 63.1934L53.9597 69.1699C52.7116 70.3828 52.8874 72.4043 54.2761 73.4766C58.5827 76.8516 63.9616 78.7324 69.4811 78.75V87.1875C69.4811 88.7344 70.7468 90 72.2936 90H77.9186C79.4655 90 80.7311 88.7344 80.7311 87.1875V78.7148C88.9226 78.5566 96.6042 73.6875 99.3112 65.9355C103.091 55.1074 96.7448 43.998 86.5671 41.0273V41.0273Z"
-                fill="#0E4554" fill-opacity="0.7" />
-            </svg>
-          </i>
-          <h4>Fundraising</h4>
-          <h6>Raise funds for your campaigns.</h6>
-        </div>
-      </div>
-    </div>
-  </section>
-  <hr>
-  <section id="ongoing">
-    <div class="container">
-      <div class="section-header">
-        <h3>Ongoing Campaigns</h3>
-      </div>
-      <div class="card-deck" id="ongoingCard">
-        <!-- <div class="card">
-          <img src="assets/img/joel-muniz-y3ZY6qFln_g-unsplash.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Build New Shelters<br><span class="small">Society for the Prevention of Cruelty to Animals (SPCA)</span></h5>
-            <p class="card-text">Every year, SPCA Singapore needs at least $3 million to run all its services — 24/7 emergency rescues...</p>
-            <a href="" class="btn btn-info">Donate Today</a> <br>
-            <a class="card-text"><small>More Details</small></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="assets/img/joel-muniz-y3ZY6qFln_g-unsplash.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Non Perishable Provisions<br><span class="small">Willing Hearts</span></h5>
-            <p class="card-text">We operates a soup kitchen that prepares, cooks and distributes about 9,500 daily meals to over ...</p>
-            <a href="" class="btn btn-info">Donate Today</a> <br>
-            <a class="card-text"><small>More Details</small></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="assets/img/joel-muniz-y3ZY6qFln_g-unsplash.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Willing Hearts<br><span class="small">Society for the Prevention of Cruelty to Animals (SPCA)</span></h5>
-            <p class="card-text">We operates a soup kitchen that prepares, cooks and distributes about 9,500 daily meals to over ...</p>
-            <a href="" class="btn btn-info">Donate Today</a> <br>
-            <a class="card-text"><small>More Details</small></a>
-          </div>
-        </div> -->
-      </div>
-    </div>
-  </section>
   <footer class="footer">
     <div class="container">
       <span class="text-muted">Copyright © 2021 Give For Good, All Rights Reserved.</span>
     </div>
   </footer>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
 <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-<script src="./js/index.js"></script>
-<script>
-  $('.carousel').carousel()
-</script>
+<script src="./js/login.js"></script>
 
 </html>
