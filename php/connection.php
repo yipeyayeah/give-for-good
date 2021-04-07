@@ -25,4 +25,23 @@ if (!$conn) {
 }
 //echo "Connected successfully";
 
+// $sqlQuery = $conn->prepare('CALL spGetCampaignDetails(?);');
+// // $campaignID = $_GET["campaignID"];
+// $campaignID = 2;
+// $sqlQuery->bind_param("i", $campaignID);
+// $sqlQuery->execute();
+// $result = $sqlQuery->get_result();
+// if ($result->num_rows > 0) {
+//   while ($row = $result->fetch_assoc()) {
+//     echo $row['CampaignName']."</br>";
+//     echo $row['Description']."</br>";
+//     echo $row['Location']."</br>";
+//     echo $row['Backers']."</br>";
+//     echo $row['UEN']."</br>";
+//     echo $row['uenStatus']."</br>";
+//   }
+// } else {
+//   echo 0;
+// }
+
 ?>
