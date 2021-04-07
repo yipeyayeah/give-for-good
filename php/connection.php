@@ -1,8 +1,14 @@
 <?php
 
-$servername = "localhost";
+// $servername = "localhost";
+// $database = "database_project";
+// $username = "root";
+// $password = "123456789";
+
+
+$servername = "172.20.10.12";
 $database = "database_project";
-$username = "root";
+$username = "csc2008gideon";
 $password = "123456789";
 
 // Create connection

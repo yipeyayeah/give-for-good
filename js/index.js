@@ -32,7 +32,7 @@ function loadOngoing() {
 
       for (var i = 0; i < jsonObj.length; i++) {
         //console.log(jsonObj[i])
-        card += '<div class="card"><img src="assets/img/joel-muniz-y3ZY6qFln_g-unsplash.jpg" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+ jsonObj[i]['CampaignName'] +'<br><a href="./charityProfile_donor?charityID=' + jsonObj[i]['CharityID'] + '" class="small">' + jsonObj[i]['entityName'] + '</a></h5><p class="card-text">' + jsonObj[i]['Description'] + '</p><a href="./donate?campaignID=' + jsonObj[i]["CampaignID"] + '" class="btn btn-info">Donate Today</a> <br><a href="./campaign_details?campaignID=' + jsonObj[i]["CampaignID"] + '"class="card-text"><small>More Details</small></a></div></div>'
+        card += '<div class="card"><img src="assets/img/joel-muniz-y3ZY6qFln_g-unsplash.jpg" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+ jsonObj[i]['CampaignName'] +'<br><a href="./charityProfile_donor.html?charityID=' + jsonObj[i]['CharityID'] + '" class="small">' + jsonObj[i]['entityName'] + '</a></h5><p class="card-text">' + jsonObj[i]['Description'] + '</p><a href="./donate.html?campaignID=' + jsonObj[i]["CampaignID"] + '" class="btn btn-info">Donate Today</a> <br><a href="./campaign_details.html?campaignID=' + jsonObj[i]["CampaignID"] + '"class="card-text"><small>More Details</small></a></div></div>'
       }
       $("#ongoingCard").html(card)
 

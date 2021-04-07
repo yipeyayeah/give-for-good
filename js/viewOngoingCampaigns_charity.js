@@ -20,7 +20,7 @@ $(document).ready(function () {
                 jsonObj[i]['Backers'],
                 jsonObj[i]['EndDateTime'],
                 "In Progress",
-                '<a href="./edit_campaign?campaignID=' + jsonObj[i]["CampaignID"] + '" type="button" class="btn btn-info">Edit</a>'
+                '<a href="./edit_campaign.html?campaignID=' + jsonObj[i]["CampaignID"] + '" type="button" class="btn btn-info">Edit</a>'
             ] ).draw( false );
           }
 
