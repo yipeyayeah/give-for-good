@@ -6,9 +6,22 @@ $percentage = 0;
 $campaignID = $_GET["campaignID"];
 $today = time();
 
-$sqlQuery = $conn->prepare('SELECT * FROM campaign INNER JOIN goal ON campaign.GoalID = goal.GoalID INNER JOIN charity on campaign.CharityID = charity.CharityID WHERE campaign.CampaignID = ?');
+$sqlQuery = $conn->prepare('CALL spGetCampaignDetails(?);');
 $sqlQuery->bind_param("i", $campaignID);
 $sqlQuery->execute();
+$result = $sqlQuery->get_result();
+if ($result->num_rows > 0) {
+  while ($row = $result->fetch_assoc()) {
+    echo $row['CampaignName']."</br>";
+    echo $row['Description']."</br>";
+    echo $row['Location']."</br>";
+    echo $row['Backers']."</br>";
+    echo $row['UEN']."</br>";
+    echo $row['uenStatus']."</br>";
+  }
+} else {
+  echo 0;
+}
 $result = $sqlQuery->get_result();
 if ($result->num_rows > 0) {
   while ($row = $result->fetch_assoc()) {
